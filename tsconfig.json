@@ -1,0 +1,17 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": ["*.d.ts", "src/**/*", "src/**/*.vue"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": ["element-plus/global", "unplugin-vue-define-options/macros-global"]
+  },
+  "verbatimModuleSyntax": true,
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
