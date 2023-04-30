@@ -1,46 +1,20 @@
-# topology-editor
+# topology-editor ⚡ 拓扑图编辑器
 
-This template should help get you started developing with Vue 3 in Vite.
+> 使用 Vue3 + TypeScript + pinia + ElementPlus + meta2d.js 开发的拓扑图编辑器
 
-## Recommended IDE Setup
+💡 前段时间工作中需要展示设备拓扑图，并实时更新状态显示。找资料的过程中发现乐吾乐的编辑器正好满足需求，但是他家编辑器并不开源，找了一圈也没找到满足自己需求的开源项目，而且之前 1 版本的文档全部失效了，所以自己动手丰衣足食，撸了一个。目前已实现[官方编辑器](https://2d.le5le.com/)大部分内容，基本满足需求，并已在项目中使用。开源出来给大家参考。剩下的功能大家可以自己去实现一下 🤗。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+❤️ 开源不易，希望大家有条件的话还是可以多多支持一下 [乐吾乐](https://le5le.com/)，官方的编辑器功能更强大。
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+🌟 如果，我是说如果！本项目对你工作有帮助的话，请不要吝啬你的 `Star🌟`噢；
 
 ## Project Setup
 
 ```sh
 pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 pnpm dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## License
 
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+[MIT](LICENSE).
