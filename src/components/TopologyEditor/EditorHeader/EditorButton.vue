@@ -49,7 +49,7 @@
   }
 
   .btn-text {
-    margin-top: v-bind(textmargintop);
+    margin-top: v-bind(textMarginTop);
     font-size: 12px;
     line-height: 1;
   }
